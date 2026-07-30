@@ -1,0 +1,38 @@
+# Lettuce
+
+> Lettuce (Lettuce Inc.) is a venture-backed startup based in Venice, California,
+> surfaced in the API Evangelist network as a 500 Global portfolio company. As of
+> July 2026 the company publishes no live public web, developer, or API surface:
+> lettuceapps.com and every probed subdomain resolve to a wildcard domain-parking
+> page, and no documentation, OpenAPI, SDK, or .well-known discovery document
+> could be found. This file is generated from the API Evangelist catalog entry and
+> honest live probes, not from provider-published content.
+
+## Status
+
+- Domain lettuceapps.com: parked / no first-party content (HTTP 200 parking page)
+- Developer portal, documentation, API reference: none found
+- OpenAPI / AsyncAPI / GraphQL specifications: none found
+- SDKs / packages on npm, PyPI, Maven, NuGet, RubyGems, Packagist, crates.io: none attributable to this company
+- .well-known discovery documents: all probed paths returned 404
+
+## Identity
+
+- Company: Lettuce Inc.
+- Location: Venice, California, United States
+- Website (parked): https://lettuceapps.com
+- GitHub: https://github.com/lettuceapps
+- Backed by: 500 Global
+
+## Artifacts in this repository
+
+- Catalog entry: apis.yml
+- Domain security probe: security/lettuce-domain-security.yml
+- .well-known probe record: well-known/lettuce-well-known.yml
+- This file: llms/lettuce-llms.txt
+
+## Disambiguation
+
+"Lettuce" is also the name of an unrelated open-source Java Redis client
+(lettuce.io, redis/lettuce) and of other companies sharing the name. None of
+those are this entity, and no artifact in this repository is sourced from them.
