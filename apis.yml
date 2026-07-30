@@ -1,7 +1,31 @@
 aid: lettuce
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lettuce.png
 name: Lettuce
-description: Lettuce is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Lettuce (Lettuce Inc.) is a venture-backed startup headquartered in Venice,
+  California, surfaced in the API Evangelist network as a 500 Global portfolio
+  company. As of the July 2026 enrichment pass the company operates no live
+  public surface: lettuceapps.com and every probed subdomain (www, api, docs,
+  developer, app) return the same wildcard domain-parking page rather than
+  first-party content, and no developer portal, documentation, API reference,
+  OpenAPI or AsyncAPI specification, SDK, package-registry release, or
+  .well-known discovery document could be located. The company's remaining
+  public footprint is a GitHub account holding one internal Node.js proxy
+  project and one empty repository. This profile therefore records verified
+  identity and live probe results only; it is retained as a dormant portfolio
+  lead rather than an active API provider, and carries no fabricated API
+  artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/lettuce/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +33,19 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: dormant
+x-status-evidence: lettuceapps.com serves a wildcard domain-parking page; probed 2026-07-19
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Startup
+- Venture Backed
+- 500 Global
+- Portfolio
+- Dormant
+- Venice California
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/lettuce-domain-security.yml
 - type: Website
   url: https://lettuceapps.com
+- type: GitHubOrganization
+  url: https://github.com/lettuceapps
+- type: LLMsTxt
+  url: llms/lettuce-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
