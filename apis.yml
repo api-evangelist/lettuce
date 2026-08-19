@@ -35,7 +35,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: dormant
 x-status-evidence: lettuceapps.com serves a wildcard domain-parking page; probed 2026-07-19
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
