@@ -51,7 +51,6 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Startups
 - Venture Backed
 - 500 Global
 - Portfolio
@@ -59,7 +58,6 @@ tags:
 - Venice California
 tags_raw:
 - Company
-- Startup
 - Venture Backed
 - 500 Global
 - Portfolio
@@ -85,3 +83,7 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-tags-removed:
+- Startups
+x-company-stage: venture-backed
+x-company-stage-evidence: "own tags: Startup, Venture Backed, 500 Global, Portfolio"
